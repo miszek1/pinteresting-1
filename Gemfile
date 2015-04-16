@@ -13,7 +13,7 @@ gem 'devise', '~> 3.4.0.rc2' #or later
 gem 'paperclip', '~> 4.2' 
 gem 'bootstrap-sass'
 gem 'cocaine', '~> 0.5.7'
-
+gem 'aws-sdk', '~> 2.0'
 
 group :development, :test do
   gem 'byebug'
