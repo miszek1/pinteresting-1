@@ -9,8 +9,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem  'devise', '~> 3.4.0.rc2' #or later
+gem 'devise', '~> 3.4.0.rc2' #or later
+gem 'paperclip', '~> 4.2' 
 gem 'bootstrap-sass'
+gem 'cocaine', '~> 0.5.7'
+
 
 group :development, :test do
   gem 'byebug'
